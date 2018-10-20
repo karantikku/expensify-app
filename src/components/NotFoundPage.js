@@ -1,5 +1,10 @@
-import React from "react";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
-const HelpPage = () => <div>This is help page.</div>;
+const NotFoundPage = () => (
+  <div>
+    404 - <Link to="/">Go home</Link>
+  </div>
+);
 
-export default HelpPage;
+export default NotFoundPage;
